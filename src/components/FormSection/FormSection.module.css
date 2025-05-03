@@ -1,0 +1,71 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 600px;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.fieldset {
+  border: 1px solid #dee2e6;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  background-color: #f1f3f5;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+}
+
+.legend {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0 0.5rem;
+  background-color: #f8f9fa;
+  position: absolute;
+  top: -0.7rem;
+  left: 1rem;
+  z-index: 1;
+}
+
+.label {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  color: #495057;
+}
+
+.input {
+  padding: 0.6rem 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  border-color: #0d6efd;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.2);
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0b5ed7;
+}
